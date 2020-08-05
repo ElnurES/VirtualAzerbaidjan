@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yeni Muraciet</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/48505676c5.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="page-header">
+        <nav class="navbar navbar-expand-lg ">
+            <a class="navbar-brand" href="#">Emek Munasibetleri ve Meshgulluq Alt Sistemi</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="form-inline my-2 my-lg-0">
+                    <i class="fa fa-search"></i>
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                </form>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img src="img/UK.svg" alt="">
+                            English
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Azerbaycan</a>
+                            <a class="dropdown-item" href="#">Russian</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-th"></i>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link user-box ml-5" href="#" tabindex="-1" aria-disabled="true">
+                            <img class="user-img" src="img/user.jpg" alt="">
+                            <div class="user-detail d-flex flex-column text-left pl-2">
+                                <span class="welcome">Xosh gorduk</span>
+                                <span>Elnur Soltanov</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <main class="page-content-wrapper">
+        <div class="sidebar">
+            <ul class="nav flex-column nav-pills">
+                <li class="nav-item mb-2">
+                    <a class="nav-link" id="home-tab-5" data-toggle="tab" href="#">
+                        <span class="nav-icon">
+                            <i class="flaticon2-chat-1"></i>
+                        </span>
+                        <span class="nav-text">Ana Seife</span>
+                    </a>
+                </li>
+                <li class="nav-item dropdown mb-2">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                        aria-haspopup="true" aria-expanded="false">
+                        <span class="nav-icon">
+                            <i class="flaticon2-position"></i>
+                        </span>
+                        <span class="nav-text">Muraciet eden ehexslerle ish</span>
+                    </a>
+                    <div class="dropdown-menu sb-menu">
+                        <a class="dropdown-item mb-2" href="#">Yeni muracietler</a>
+                        <a class="dropdown-item mb-2" href="#">ish axtaran shexsler</a>
+                        <a class="dropdown-item mb-2" href="#">Ishsiz shexsler</a>
+                        <a class="dropdown-item mb-2" href="#">Ishle temin edilmish shexsler</a>
+                        <a class="dropdown-item mb-2" href="#">Qeydiyyata alinmish Shexsler </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="page-content">
+            <h2>Yeni muracietler</h2>
+            <div class="search-filter">
+                <div class="filter-header">
+                    <h3>Axtarish filtrleri</h3>
+                </div>
+                <div class="filter-body">
+                    <form>
+                        <div class="row">
+                            <div class="form-group col">
+                                <label>FIN</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group col">
+                                <label>Ad,soyad,ata adi</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group col">
+                                <label>Ishle temin olunma formasi</label>
+                                <select name="" id="" class="form-control">
+                                    <option class="form-group">Ishle temin olunma formasi 1</option>
+                                </select>
+                            </div>
+                            <div class="form-group col">
+                                <label>Tarixden</label>
+                                <input type="date" value="дд.мм.гггг" class="form-control">
+                            </div>
+                            <div class="form-group col">
+                                <label>Tarixe</label>
+                                <input type="date" value="дд.мм.гггг" class="form-control">
+                            </div>
+                        </div>
+                        <div class="details-filter">
+                            <div class="row">
+                                <div class="form-group col">
+                                    <label>Ixtisas</label>
+                                    <select name="" id="" class="form-control">
+                                        <option class="form-group">Ixtisas 1</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col">
+                                    <label>Peshe</label>
+                                    <select name="" id="" class="form-control">
+                                        <option class="form-group">Peshe 1</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col">
+                                    <label>Tehsil seviyyesi</label>
+                                    <select name="" id="" class="form-control">
+                                        <option class="form-group">Tehsil seviyyesi 1</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col">
+                                    <label>Ish tecrubesi</label>
+                                    <select name="" id="" class="form-control">
+                                        <option class="form-group">Ish tecrubesi 1</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col price">
+                                    <label>Emek haqqi</label>
+                                    <div>
+                                        <input type="text" placeholder="min" class="form-control">
+                                        <input type="text" placeholder="max" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col">
+                                    <label>Sosial veziyyeti</label>
+                                    <select name="" id="" class="form-control">
+                                        <option class="form-group">Sosial veziyyeti 1</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col">
+                                    <label>Aile veziyyeti</label>
+                                    <select name="" id="" class="form-control">
+                                        <option class="form-group">Evli</option>
+                                        <option class="form-group">Subay</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col">
+                                    <label>Cinsi</label>
+                                    <select name="" id="" class="form-control">
+                                        <option class="form-group">Kishi</option>
+                                        <option class="form-group">Qadin</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col">
+                                    <label>Tevesllud araligi</label>
+                                    <input type="date" value="дд.мм.гггг" class="form-control">
+                                </div>
+                                <div class="form-group col">
+                                    <label></label>
+                                    <input type="date" value="дд.мм.гггг" class="form-control mt-1">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-3">
+                                    <label>Qeydiyayt rayonu</label>
+                                    <select name="" id="" class="form-control">
+                                        <option class="form-group">Rayon 1</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-3">
+                                    <label>Meshgulluq merkezi</label>
+                                    <select name="" id="" class="form-control">
+                                        <option class="form-group">Meshgulluq 1</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="footer-fs">
+                    <div class="details-btn">
+                        <a href="#" class="btn" id="detail-btn">
+                            <i class="fa fa-plus"></i>
+                            Etrafli
+                        </a>
+                    </div>
+                    <div class="search-btn">
+                        <a href="#" class="btn btn-success">
+                            <i class="fa fa-search"></i> Axtarish et
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="data-table">
+                <div class="table-header row">
+                    <div class="table-title col">
+                        <h3 class="table-label">Umumi neticeler</h3>
+                        <span>[356]</span>
+                    </div>
+                    <div class="table-toolbar col">
+                        <a href="#" class="btn">
+                            <i class="fas fa-file-pdf"></i>
+                            PDF
+                        </a>
+                        <a href="#" class="btn">
+                            <i class="fas fa-file-excel"></i>
+                            Exel
+                        </a>
+                        <a href="#" class="btn">
+                            <i class="fa fa-print"></i>
+                            Print
+                        </a>
+                    </div>
+                </div>
+                <table class="table">
+                    <thead>
+                        <tr role="row">
+
+                            <th>
+                                S/s
+                            </th>
+                            <th>
+
+                            </th>
+                            <th>
+                                FIN
+                            </th>
+                            <th>
+                                Ad,soyad,ata adi
+                            </th>
+                            <th>
+                                Muracietin tarixi
+                            </th>
+                            <th>
+                                Muracietin novu
+                            </th>
+                            <th class="th-icon">
+                                Qebul et
+                            </th>
+                            <th class="th-icon">
+                                Legv et
+                            </th>
+                            <th class="th-icon">
+                                Etrafli
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr role="row">
+                            <td>
+                                1
+                            </td>
+                            <td>
+                                <div class="timg">
+                                    <img src="img/user.jpg" alt="">
+                                </div>
+                            </td>
+                            <td>
+                                25Ugap3
+                            </td>
+                            <td>
+                                Quliyeva Inci Vidadi
+                            </td>
+                            <td>
+                                01.01.2020
+                            </td>
+                            <td>
+                                Ish ucun
+                            </td>
+                            <td>
+                                <div class="ticon">
+                                    <i class="fas fa-check"></i>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="ticon">
+                                    <i class="fas fa-times-circle cancle"></i>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="ticon">
+                                    <i class="fas fa-angle-double-up" id="td-detail"></i>
+                                </div>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+                <div class="data-tables-paginate">
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination">
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">4</a></li>
+                            <li class="page-item"><a class="page-link" href="#">5</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <style>
+        .details-filter {
+            display: none;
+        }
+
+        .price input {
+            width: 48%;
+            display: inline-block;
+        }
+
+        .pagination {
+            justify-content: center;
+            margin: 20px 0px;
+        }
+
+        .paginate-btn {
+            margin-left: 25px;
+        }
+
+        .cancle {
+            color: #F15642;
+        }
+
+        .table-header {
+            margin-top: 30px;
+        }
+
+        .form-group label {
+            font-size: 14px;
+            line-height: 19px;
+            color: #757575;
+        }
+
+        .search-filter {
+            background: white;
+            box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+            padding: 20px;
+        }
+
+        .filter-header h3 {
+            font-weight: 600;
+            font-size: 17px;
+            line-height: 23px;
+            color: #2E2E2E;
+
+        }
+
+        .chield {
+            width: 100%;
+            /* display: none; */
+        }
+
+        .ticon,
+        .th-icon {
+            text-align: center;
+        }
+
+        .table {
+            width: 100%;
+            background: #FFFFFF;
+            box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 20px;
+            margin-bottom: 0 !important;
+        }
+
+        .table table {
+            width: 100%;
+        }
+
+        .timg img {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+        }
+
+        .table-toolbar {
+            text-align: end;
+        }
+
+        .table-toolbar a {
+            background: #F6F6F6;
+            border-radius: 4px;
+        }
+
+        .table-label {
+            display: inline-block;
+            font-weight: 600;
+            font-size: 17px;
+            line-height: 23px;
+        }
+
+        .details-btn {
+            display: inline;
+        }
+
+        .details-btn a {
+            background: #F6F6F6;
+            border-radius: 4px;
+        }
+
+        .search-btn {
+            float: right;
+            display: inline;
+        }
+
+        .search-btn a {
+            background: #0045CC;
+            border-radius: 4px;
+        }
+
+        h2 {
+            position: absolute;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 29px;
+            top: -70px;
+            color: white;
+        }
+
+        .sb-menu {
+            border: 0 !important;
+        }
+
+        .user-detail {
+            display: inline-block;
+        }
+
+        .navbar-brand {
+            width: 15%;
+            white-space: normal !important;
+            font-family: Segoe UI;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 20px;
+
+            color: #FFFFFF;
+        }
+
+        .navbar-brand span {
+            font-family: Segoe UI;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 20px;
+
+            color: #FFFFFF;
+        }
+
+        .page-content-wrapper {
+            position: relative;
+        }
+
+        .sidebar {
+            width: 17%;
+            display: inline-block;
+            font-family: Segoe UI;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 19px;
+            color: #212121;
+        }
+
+        .sidebar ul li a {
+            color: #212121;
+        }
+
+        .page-content {
+            width: 81%;
+            display: inline-block;
+            position: absolute;
+            top: -40%;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+
+        .show {
+            display: block;
+        }
+    </style>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+
+    <script>
+        $("#detail-btn").click(function () {
+            $(".details-filter").toggleClass("show");
+        });
+    </script>
+</body>
+
+</html>

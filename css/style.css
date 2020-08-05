@@ -1,0 +1,45 @@
+.page-header{
+    height: 270px;
+    background: linear-gradient(180deg, #0045CC 10.1%, rgba(0, 69, 204, 0) 111.7%);
+}
+.navbar {
+    padding-top: 20px;
+}
+.form-inline{
+    width: 401px;
+    height: 42px;
+    background-color: white;
+    position: relative;
+    border-radius: 5px;
+    margin-left: 100px;
+
+}
+.form-inline input{
+    width: 100% !important;
+    box-shadow: none !important;
+    border: 0;
+    margin: 0 0 0 20px !important;
+}
+.form-inline i{
+    position: absolute;
+    padding: 0 10px;
+}
+.nav-item img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.nav-link .user-img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    float: left;
+}
+.user-box{
+    width: 150px !important;
+    padding: 0 !important;
+}
+.welcome{
+    font-size: 12px;
+    /* display: inline-block; */
+}
